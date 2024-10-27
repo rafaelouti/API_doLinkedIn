@@ -19,3 +19,17 @@ Este projeto demonstra como integrar a API do LinkedIn para compartilhar conteú
 
 
 go get github.com/your-repository/go-linkedin
+
+Explicação
+Importação de Pacotes
+fmt e log: Utilizados para formatar e registrar mensagens de texto e de erro.
+
+github.com/your-repository/go-linkedin: Biblioteca para integrar com a API do LinkedIn.
+
+Configuração da API do LinkedIn
+NewClient: Inicializa a API do LinkedIn com as chaves de API.
+
+Compartilhamento de Conteúdo
+NewPost: Cria uma nova postagem com o conteúdo fornecido.
+
+SharePost: Compartilha a postagem no LinkedIn.
